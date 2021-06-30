@@ -16,7 +16,7 @@ public class RSLeftAlignedLayout: UICollectionViewFlowLayout {
 		fatalError("Use convenience init(scrollDirection: minimumLineSpacing: minimumLineSpacing: )")
 	}
 	
-	convenience init(scrollDirection: UICollectionView.ScrollDirection, minimumLineSpacing: CGFloat, minimumInteritemSpacing: CGFloat) {
+	public convenience init(scrollDirection: UICollectionView.ScrollDirection, minimumLineSpacing: CGFloat, minimumInteritemSpacing: CGFloat) {
 		self.init()
 		
 		common(scrollDirection: scrollDirection, minimumLineSpacing: minimumLineSpacing, minimumInteritemSpacing: minimumInteritemSpacing)
